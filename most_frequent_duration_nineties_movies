@@ -1,0 +1,14 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+from statistics import mean 
+
+# Read in the Netflix CSV as a DataFrame
+netflix_df = pd.read_csv("netflix_data.csv")
+
+# What was the most frequent movie duration in the 1990s:
+nineties_movies= netflix_df[netflix_df['release_year'].between(1990, 1999)]
+duration_nineties_movies= nineties_movies['duration']
+duration= duration_nineties_movies.mode()[0]
+print(int(duration))
+
+# This results in 94 minutes 
