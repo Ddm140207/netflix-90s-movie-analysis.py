@@ -36,5 +36,5 @@ The most ***frequent movie duration for 1990s*** titles in the Netflix dataset i
 This slightly surpasses the industry’s typical average of 90 minutes, suggesting that Netflix’s 90s catalog may lean toward slightly longer films.
 
 
-### 🎬 How many short action movies were released in the 1990s? (Less than 90 mins)
+### 🎬 How many short movies were released in the 1990s? (Less than 90 mins)
 A total of **184 short action movies** from the 1990s are present in the dataset.
