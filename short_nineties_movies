@@ -1,0 +1,15 @@
+# Importing pandas, statistics and matplotlib
+import pandas as pd
+import matplotlib.pyplot as plt
+from statistics import mean 
+
+# Read in the Netflix CSV as a DataFrame
+netflix_df = pd.read_csv("netflix_data.csv")
+
+#How many short movies where released in the 1990s 
+nineties_movies= netflix_df[netflix_df['release_year'].between(1990, 1999)]
+short_nineties_movies= nineties_movies['duration'] < 90
+short_movie_count= short_nineties_movies.count()
+print(short_movie_count)
+
+# This results on 184 movies!
