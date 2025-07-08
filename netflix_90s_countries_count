@@ -1,0 +1,22 @@
+# 🌎 Which countries produced the most 90s movies on Netflix?
+
+import matplotlib.pyplot as plt
+
+netflix_90s = netflix_df[netflix_df["release_year"].between(1990, 1999)]
+countries_count = netflix_90s['country'].value_counts()
+
+plt.plot(countries_count.index, countries_count.values, label="Number of Movies", color='blue', marker='o')
+
+plt.title("Top Countries Producing Movies in the 1990s on Netflix")
+plt.xlabel("Country")
+plt.ylabel("Number of Movies")
+
+plt.xticks(rotation=45, ha='right')
+plt.tight_layout()
+plt.legend()
+plt.show()
+
+# Conclusion:
+# The United States led movie production in the 1990s, followed by India and the United Kingdom.
+# While these countries dominate the catalog, there is also notable representation from various other nations, 
+# showcasing Netflix’s diverse international content from that decade.
