@@ -2,7 +2,7 @@
 
 🎬 **Netflix 90s Movie Analysis**  
 A data-driven exploration of movie trends on Netflix, focusing on 1990s releases.  
-This project analyzes patterns in movie durations — particularly short action films from that decade — using Python, Pandas, and Matplotlib for data visualization.
+This project analyzes patterns in movies of the nineties using Python, Pandas, and Matplotlib for data visualization.
 
 ---
 
