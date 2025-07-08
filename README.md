@@ -49,6 +49,9 @@ With the highest number of releases in the 1990s, the **Action genre** clearly d
 
 
 ### 🌎 Which countries produced the most 90s movies on Netflix?
+With the highest number of movie releases in the 1990s, the United States clearly dominated film production during the decade, followed closely by India and the United Kingdom. This pattern reflects the strength of these countries’ film industries and the global demand for diverse cinematic content throughout that period.
 
+**The chart below shows the number of movies produced by country between 1990 and 1999, highlighting the broad international representation in Netflix's catalog from that era:**
 
+<img src="90s_movies_countries.png" alt="Most Common Genres in the 90s" width="690"/>
  
