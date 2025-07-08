@@ -38,3 +38,9 @@ This slightly surpasses the industry’s typical average of 90 minutes, suggesti
 
 ### 🎬 How many short movies were released in the 1990s? (Less than 90 mins)
 A total of **184 short action movies** from the 1990s are present in the dataset.
+
+
+### ❓ Which movie genre was most popular in the 1990s?
+With the highest number of releases in the 1990s, the Action genre clearly dominated the decade, reflecting both industry investment and global audience preferences for dynamic, adrenaline-filled narratives.
+
+The chart below shows the number of movies per genre released between 1990 and 1999:
