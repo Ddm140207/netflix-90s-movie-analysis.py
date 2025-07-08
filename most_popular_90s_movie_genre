@@ -1,0 +1,19 @@
+# ❓ Which movie genre was most popular in the 1990s?
+
+import matplotlib.pyplot as plt
+
+netflix_90s = netflix_df[netflix_df["release_year"].between(1990, 1999)]
+
+genre_counts = netflix_90s["genre"].value_counts()
+
+plt.barh(genre_counts.index, genre_counts.values, color='red')
+
+plt.title("Top Movie Genres by Number of Releases (1990s)")
+plt.xlabel("Total Number of Movies Released")
+plt.ylabel("Genre")
+
+plt.tight_layout()
+plt.show()
+
+### With the highest number of releases in the 1990s, the Action genre clearly dominated the decade,
+reflecting both industry investment and global audience preferences for dynamic, adrenaline-filled narratives. ###
